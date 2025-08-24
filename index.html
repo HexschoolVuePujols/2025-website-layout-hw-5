@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <script type="module" crossorigin src="/2025-website-layout-hw-5/assets/index-dX14j5ni.js"></script>
+  <link rel="stylesheet" crossorigin href="/2025-website-layout-hw-5/assets/index-BiRTIz8o.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between align-items-stretch">
+        <div class="col-2">
+          <a href="#" class="logo">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week5/logo.svg"
+              alt="logo">
+          </a>
+        </div>
+        <div class="col-4">
+          <ul class="nav gap-12px d-flex flex-nowrap align-items-center justify-content-center text-center h-100">
+            <li class="h-100"><a href="#" class="nav-item px-4 py-2 text-decoration-none d-block h-100">服務方案</a></li>
+            <li class="h-100"><a href="#" class="nav-item px-4 py-2 text-decoration-none d-block h-100">關於職旅</a></li>
+            <li class="h-100"><a href="#" class="nav-item px-4 py-2 text-decoration-none d-block h-100">聯絡我們</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <div class="profile d-flex align-items-center gap-2">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week5/avatar.png?raw=true"
+              alt="avatar" class="profile-photo rounded-circle">
+            <p class="profile-name mb-0">Mokumaru</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main border-bottom">
+    <div class="container">
+      <div class="row">
+        <ul class="tabs mb-4 list-unstyled d-flex justify-content-center gap-4">
+          <li><a href="#" class="tab text-decoration-none border rounded-4 d-flex align-items-center gap-1">
+              <span class="material-symbols-outlined">face</span>
+              個人資料</a>
+          </li>
+          <li><a href="#" class="tab text-decoration-none border rounded-4 d-flex align-items-center gap-1">
+              <span class="material-symbols-outlined">pending_actions</span>預約紀錄</a>
+          </li>
+          <li><a href="#" class="tab text-decoration-none border rounded-4 d-flex align-items-center gap-1 active">
+              <span class="material-symbols-outlined">list_alt</span>職旅計劃</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="card border-0 shadow border-radius-24px">
+            <section class="row p-5 pb-0 mx-0">
+              <div class="col border-bottom">
+                <div class="row justify-content-between">
+                  <div class="col-auto">
+                    <h2 class="fs-4">職旅計劃概況</h2>
+                    <p class="fs-6 text-secondary">欄位皆為 <span
+                        class="bg-danger text-white rounded rounded-pill px-2 py-1 fs-14px">必填</span></p>
+                  </div>
+                  <div class="col-auto pb-5 w-656px">
+                    <form action="#">
+                      <div class="row mb-4">
+                        <div class="col fs-14px">
+                          <h3 class="fs-6 mb-2">目前職業狀態</h3>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="radio" name="job" id="fulltime">
+                            <label class="form-check-label" for="fulltime">
+                              全職上班族
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="job" id="parttime">
+                            <label class="form-check-label" for="parttime">
+                              兼職工作者
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="job" id="free">
+                            <label class="form-check-label" for="free">
+                              自由工作者/接案者
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="job" id="nomad">
+                            <label class="form-check-label" for="nomad">
+                              數位遊牧者
+                            </label>
+                          </div>
+                          <br>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="job" id="entrepreneur">
+                            <label class="form-check-label" for="entrepreneur">
+                              創業者/企業主
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="job" id="unemployed">
+                            <label class="form-check-label" for="unemployed">
+                              待業中
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="job" id="other">
+                            <label class="form-check-label" for="other">
+                              其他
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <select class="form-select form-select-lg fs-6" aria-label="工作產業">
+                            <option selected>工作產業</option>
+                            <option value="1">科技</option>
+                            <option value="2">媒體</option>
+                            <option value="3">教育</option>
+                            <option value="4">金融</option>
+                            <option value="5">醫療健康</option>
+                            <option value="6">零售製造</option>
+                            <option value="7">服務業</option>
+                            <option value="8">藝術創意</option>
+                            <option value="9">非營利組織</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <select class="form-select form-select-lg fs-6" aria-label="工作年資">
+                            <option selected>工作年資</option>
+                            <option value="1">1 年以下</option>
+                            <option value="2">1-3 年</option>
+                            <option value="3">3-5 年</option>
+                            <option value="4">5-10 年</option>
+                            <option value="5">10 年以上</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row mb-27px">
+                        <div class="col">
+                          <h3 class="fs-6">月收入區間</h3>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="salary" id="salary-1">
+                            <label class="form-check-label" for="salary-1">
+                              3 萬以下
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="salary" id="salary-2">
+                            <label class="form-check-label" for="salary-2">
+                              3-5 萬
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="salary" id="salary-3">
+                            <label class="form-check-label" for="salary-3">
+                              5-8 萬
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="salary" id="salary-4">
+                            <label class="form-check-label" for="salary-4">
+                              8-12 萬
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="salary" id="salary-5">
+                            <label class="form-check-label" for="salary-5">
+                              12-20 萬
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="salary" id="salary-6">
+                            <label class="form-check-label" for="salary-6">
+                              20 萬以上
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="job-summary"
+                            id="job-summary" placeholder="職業摘要（簡短描述您的專業背景和核心競爭力最多 300 字）"></textarea>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <input type="email" class="form-control py-3 fs-6" id="work-demo" placeholder="作品案例展示">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <h3 class="fs-6 mb-2">附件檔案</h3>
+                          <button type="button"
+                            class="btn btn-outline-secondary rounded-4 d-flex align-items-center fs-6"><span
+                              class="material-symbols-outlined fs-5">
+                              upload
+                            </span>上傳檔案</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="d-flex justify-content-between p-5 pb-0">
+              <div class="col border-bottom">
+                <div class="row justify-content-between mx-0">
+                  <div class="col-auto">
+                    <div>
+                      <h2 class="fs-4">職涯規劃</h2>
+                      <p class="fs-6 text-secondary">欄位皆為 <span
+                          class="bg-danger text-white rounded rounded-pill px-2 py-1 fs-14px">必填</span></p>
+                    </div>
+                  </div>
+                  <div class="col-auto pb-5 w-656px">
+                    <form action="#">
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="job-short-goal"
+                            id="job-short-goal" placeholder="1 年短期職涯目標（最多 300 字）"></textarea>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="job-medium-goal"
+                            id="job-medium-goal" placeholder="1-3 年中長期職涯願景（最多 300 字）"></textarea>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <h3 class="fs-6">理想工作模式</h3>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="radio" name="work-mode" id="mode-1">
+                            <label class="form-check-label" for="mode-1">
+                              固定辦公室工作
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="work-mode" id="mode-2">
+                            <label class="form-check-label" for="mode-2">
+                              3-5 萬
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="work-mode" id="mode-3">
+                            <label class="form-check-label" for="mode-3">
+                              5-8 萬
+                            </label>
+                          </div>
+                          <br>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="work-mode" id="mode-4">
+                            <label class="form-check-label" for="mode-4">
+                              8-12 萬
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="work-mode" id="mode-5">
+                            <label class="form-check-label" for="mode-5">
+                              12-20 萬
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <input type="text" class="form-control py-3" id="salary-goal" placeholder="目標薪資/收入">
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <h3 class="fs-6">目前面臨的職涯挑戰</h3>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-1">
+                            <label class="form-check-label" for="challenge-1">
+                              方向不明確
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-2">
+                            <label class="form-check-label" for="challenge-2">
+                              技能需要提升
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-3">
+                            <label class="form-check-label" for="challenge-3">
+                              收入不穩定
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-4">
+                            <label class="form-check-label" for="challenge-4">
+                              客戶開發困難
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-5">
+                            <label class="form-check-label" for="challenge-5">
+                              時間管理問題
+                            </label>
+                          </div>
+                          <br>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-6">
+                            <label class="form-check-label" for="challenge-6">
+                              工作生活失衡
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-7">
+                            <label class="form-check-label" for="challenge-7">
+                              缺乏人脈資源
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="career-challenge" id="challenge-8">
+                            <label class="form-check-label" for="challenge-8">
+                              其他(請說明)
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <h3 class="fs-6">期望獲得的協助與資源</h3>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-1">
+                            <label class="form-check-label" for="expected-help-1">
+                              職涯方向指導
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-2">
+                            <label class="form-check-label" for="expected-help-2">
+                              專業技能提升建議
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-3">
+                            <label class="form-check-label" for="expected-help-3">
+                              個人品牌建立
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-4">
+                            <label class="form-check-label" for="expected-help-4">
+                              接案策略與定價
+                            </label>
+                          </div>
+                          <br>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-5">
+                            <label class="form-check-label" for="expected-help-5">
+                              客戶開發方法
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-6">
+                            <label class="form-check-label" for="expected-help-6">
+                              財務規劃
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-7">
+                            <label class="form-check-label" for="expected-help-7">
+                              時間管理系統
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-8">
+                            <label class="form-check-label" for="expected-help-8">
+                              工作生活平衡
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="expected-help" id="expected-help-9">
+                            <label class="form-check-label" for="expected-help-9">
+                              其他(請說明)
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <h3 class="fs-6">感興趣的服務方案</h3>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="interest" id="interest-1">
+                            <label class="form-check-label" for="interest-1">
+                              探索定位
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="interest" id="interest-2">
+                            <label class="form-check-label" for="interest-2">
+                              客製化方案
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="interest" id="interest-3">
+                            <label class="form-check-label" for="interest-3">
+                              實戰指導
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="d-flex justify-content-between p-5 pb-0">
+              <div class="col border-bottom">
+                <div class="row justify-content-between mx-0">
+                  <div class="col-auto">
+                    <div>
+                      <h2 class="fs-4">專業技能區塊</h2>
+                      <p class="text-secondary">欄位皆為選填</p>
+                    </div>
+                  </div>
+                  <div class="col-auto pb-5 ">
+                    <form action="#">
+                      <div class="row mb-4">
+                        <div class="col">
+                          <h3 class="fs-6">核心專業領域</h3>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-1">
+                            <label class="form-check-label" for="core-domain-1">
+                              設計/創意
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-2">
+                            <label class="form-check-label" for="core-domain-2">
+                              科技/程式開發
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-3">
+                            <label class="form-check-label" for="core-domain-3">
+                              行銷/公關
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-4">
+                            <label class="form-check-label" for="core-domain-4">
+                              內容創作/寫作
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-5">
+                            <label class="form-check-label" for="core-domain-5">
+                              顧問/諮詢
+                            </label>
+                          </div>
+                          <br>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-6">
+                            <label class="form-check-label" for="core-domain-6">
+                              商業/管理
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-7">
+                            <label class="form-check-label" for="core-domain-7">
+                              財務/會計
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-8">
+                            <label class="form-check-label" for="core-domain-8">
+                              教育/培訓
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-9">
+                            <label class="form-check-label" for="core-domain-9">
+                              法律/合規
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline mb-2">
+                            <input class="form-check-input" type="checkbox" name="core-domain" id="core-domain-10">
+                            <label class="form-check-label" for="core-domain-10">
+                              健康/醫療
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="expert-bg-core-compete"
+                            id="expert-bg-core-compete" placeholder="專業背景和核心競爭力（最多300字）"></textarea>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="professional-skill"
+                            id="professional-skill" placeholder="專業技能（最多300字）"></textarea>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="language-skill"
+                            id="language-skill" placeholder="語文能力（最多300字）"></textarea>
+                        </div>
+                      </div>
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="certification"
+                            id="certification" placeholder="資格證照（最多300字）"></textarea>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="d-flex justify-content-between p-5 pb-0 mb-5">
+              <div class="col">
+                <div class="row justify-content-between mx-0">
+                  <div class="col-auto">
+                    <h2 class="fs-4">教育背景</h2>
+                    <p class="text-secondary">欄位皆為選填</p>
+                  </div>
+                  <div class="col-auto w-656px">
+                    <form action="#">
+                      <div class="row mb-4">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px" name="educational-bg"
+                            id="educational-bg" placeholder="學歷背景（最多500字）"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <textarea class="form-control fs-5 lh-base pt-3 fs-6 h-160px"
+                            name="professional-training-workshop" id="professional-training-workshop"
+                            placeholder="專業培訓與工作坊（最多500字）"></textarea>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+
+            </section>
+            <section class="d-flex justify-content-center gap-4 mb-5">
+              <button type="button" class="btn btn-outline-secondary fs-6 ps-20px pt-12px pb-12px pe-12px lh-base">匯出
+                PDF</button>
+              <button type="button" class="btn btn-dark fs-6 ps-20px pt-12px pb-12px pe-12px lh-base">儲存更新</button>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row justify-conetne-between align-items-stretch">
+        <div class="col">
+          <ul class="d-flex list-unstyled mb-0 h-100">
+            <li><a href="#" class="text-decoration-none px-4 py-2 d-block">服務方案</a></li>
+            <li><a href="#" class="text-decoration-none px-4 py-2 d-block">關於職旅</a></li>
+            <li><a href="#" class="text-decoration-none px-4 py-2 d-block">聯絡我們</a></li>
+            <li><a href="#" class="text-decoration-none px-4 py-2 d-block">隱私權政策</a></li>
+            <li><a href="#" class="text-decoration-none px-4 py-2 d-block">用戶條款</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <p class="fs-14px text-end text-secondary">Copyright © 2025 職旅 workway. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
