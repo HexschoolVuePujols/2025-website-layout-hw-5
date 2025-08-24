@@ -1,0 +1,36 @@
+@import './_base.scss';
+@import './utilities';
+// @import './layout/header.scss';
+// @import './layout/footer.scss';
+
+
+// @import './pages/index.scss';
+
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FCFCFD;
+}
+.profile-photo {
+    width: 44px;
+    height: 44px;
+}
+
+.main {
+    padding: 80px 0;
+}
+
+.tabs {
+
+    .tab {
+        padding: 9px 20px;
+        background-color: #FCFCFD;
+        &.active {
+            background-color: #E0E5EB;
+        }
+    }
+    .material-symbols-outlined {
+        font-size: 20px;
+    }
+}
+
