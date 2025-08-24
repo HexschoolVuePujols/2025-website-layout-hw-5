@@ -12,7 +12,6 @@
 </head>
 
 <body>
-  <!-- <%- include('./layout/header'); -%> -->
 
   <header class="header">
     <div class="container">
@@ -556,9 +555,15 @@
 
             </section>
             <section class="d-flex justify-content-center gap-4 mb-5">
-              <button type="button" class="btn btn-outline-secondary fs-6 ps-20px pt-12px pb-12px pe-12px lh-base">匯出
-                PDF</button>
-              <button type="button" class="btn btn-dark fs-6 ps-20px pt-12px pb-12px pe-12px lh-base">儲存更新</button>
+              <button type="button"
+                class="btn btn-outline-secondary fs-6 ps-20px pt-12px pb-12px pe-12px lh-base d-flex align-items-center">匯出
+                PDF<span class="material-symbols-outlined fs-5">
+                  chevron_forward
+                </span></button>
+              <button type="button" class="btn btn-dark fs-6 ps-20px pt-12px pb-12px pe-12px lh-base d-flex align-items-center">儲存更新<span
+                  class="material-symbols-outlined fs-5">
+                  chevron_forward
+                </span></button>
             </section>
           </div>
         </div>
@@ -584,7 +589,6 @@
     </div>
   </footer>
 
-  <!-- <%- include('./layout/footer'); -%> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
